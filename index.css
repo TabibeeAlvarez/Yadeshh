@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: poppins;
+}
+
+body{
+    background-color: #333;
+    cursor: crosshair;
+}
+
+.first-body{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 2rem;
+}
+
+.first-body h1{
+    color: white;
+    text-align: center;
+}
+
+.tenor{
+    text-align: center;
+}
+
+.tenor .img1{
+    width: 300px;
+}
+
+.second-body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.second-body .start{
+    color: red;
+    text-decoration: none;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 2rem;
+    transition: 0.5s;
+    cursor: cell;
+}
+
+.second-body .start:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.second-body .option{
+    color: red;
+    text-decoration: none;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 2rem;
+    transition: 0.5s;
+    cursor: cell;
+}
+
+.second-body .option:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
