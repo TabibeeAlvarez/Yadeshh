@@ -23,7 +23,7 @@ function show(q1){
 }
 
 function show2(q2){
-    if(q2 === 'a1'){
+    if(q2 === 'a3'){
         puntos++;
         document.getElementById('q2').style.display = 'none';
         document.getElementById('q3').style.display = 'block';
@@ -36,7 +36,7 @@ function show2(q2){
 }
 
 function show3(q3){
-    if(q3 === 'a3'){
+    if(q3 === 'a2'){
         puntos++;
         document.getElementById('q3').style.display = 'none';
         document.getElementById('q4').style.display = 'block';
