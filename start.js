@@ -88,5 +88,5 @@ function back(){
 }
 
 function home(){
-    window.location.href = 'index.html'
+    window.location.href = 'valen.html'
 }
