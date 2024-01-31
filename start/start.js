@@ -77,19 +77,16 @@ function show5(q5){
 
     else{
         alert('Sorry you fail your score is ' + puntos + ' sad');
-        window.open('/start/start.html')
-        window.close('/index.html')
+        window.location.href = '/start/start.html'
     }
     
     document.getElementById('puntos').innerHTML = puntos;
 }
 
 function back(){
-    window.close('/start/start.html')
-    window.open('/index.html')
+    window.location.href = '/index.html'
 }
 
 function home(){
-    window.close('/start/start.html')
-    window.open('/index.html')
+    window.location.href = '/index.html'
 }
