@@ -1,5 +1,5 @@
 function starts(){
-    window.location.href = '/start/start.html'
+    window.location.href = 'start.html'
 }
 
 function option(){
