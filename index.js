@@ -3,5 +3,5 @@ function starts(){
 }
 
 function option(){
-    alert('This function is not available right now! try again later')
+    alert('This function is not available right now! because youre not my option <3')
 }
