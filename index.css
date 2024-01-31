@@ -77,3 +77,35 @@ body{
     color: black;
     transition: 0.5s;
 }
+
+.option-button{
+    text-align: center;
+    color: red;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 40vh;
+    margin-top: 10%;
+}
+
+.option-button p{
+    color: white;
+    font-size: 20px;
+}
+
+.option-button button{
+    border: none;
+    background-color: red;
+    color: black;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 400px) and (min-width: 200px){
+    .option-button{
+        height: 70vh;
+        width: 90vw;
+    }
+}
